@@ -11,7 +11,7 @@ region = "ap-south-1"
 
 }
 resource "aws_instance" "web" {
-  ami           = ami-09ba48996007c8b50
+  ami           = "ami-09ba48996007c8b50"
   instance_type = "t2.micro"
   user_data = <<EOF
 		#!/bin/bash
